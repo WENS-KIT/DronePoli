@@ -1,0 +1,16 @@
+In file included from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:2:0[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:[m[K In member function ‘[01m[Kvoid PX5::Goal_Pub()[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos_pub[m[K’ was not declared in this scope
+     [01;31m[Kgoal_pos_pub[m[K.publish(goal_position);
+     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:53:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgoal_position[m[K’
+     [01;36m[Kgoal_pos_pub[m[K.publish(goal_position);
+     [01;36m[K^~~~~~~~~~~~[m[K
+     [32m[Kgoal_position[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:129:23:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvoid PX5::Goal_Pub()[m[K’ without object
+         PX5::Goal_Pub([01;31m[K)[m[K;
+                       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

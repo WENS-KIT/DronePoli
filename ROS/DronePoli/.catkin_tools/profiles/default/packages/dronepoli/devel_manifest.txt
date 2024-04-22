@@ -1,0 +1,7 @@
+dronepoli
+/home/nvidia/DronePoli/devel/.private/dronepoli/cmake.lock /home/nvidia/DronePoli/devel/./cmake.lock
+/home/nvidia/DronePoli/devel/.private/dronepoli/share/dronepoli/cmake/dronepoliConfig-version.cmake /home/nvidia/DronePoli/devel/share/dronepoli/cmake/dronepoliConfig-version.cmake
+/home/nvidia/DronePoli/devel/.private/dronepoli/share/dronepoli/cmake/dronepoliConfig.cmake /home/nvidia/DronePoli/devel/share/dronepoli/cmake/dronepoliConfig.cmake
+/home/nvidia/DronePoli/devel/.private/dronepoli/lib/libdronepoli.so /home/nvidia/DronePoli/devel/lib/libdronepoli.so
+/home/nvidia/DronePoli/devel/.private/dronepoli/lib/dronepoli/dronepoli_node /home/nvidia/DronePoli/devel/lib/dronepoli/dronepoli_node
+/home/nvidia/DronePoli/devel/.private/dronepoli/lib/pkgconfig/dronepoli.pc /home/nvidia/DronePoli/devel/lib/pkgconfig/dronepoli.pc

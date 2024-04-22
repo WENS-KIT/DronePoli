@@ -1,0 +1,1 @@
+DronePoli/yolov4sc_best.weights filter=lfs diff=lfs merge=lfs -text

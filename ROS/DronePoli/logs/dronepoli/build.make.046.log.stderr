@@ -1,0 +1,8 @@
+In file included from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:3:0[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/convert.h:[m[K In function ‘[01m[Kdouble compute_bearing(double, double, double, double)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/convert.h:29:129:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+       * cos(radian_distance)) / ((cos(Cur_Lat_radian) * sin(radian_distance))==0?1:(cos(Cur_Lat_radian) * sin(radian_distance)))[01;31m[K;[m[K
+                                                                                                                                 [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/nvidia/DronePoli/src/dronepoli/CMakeLists.txt:22 (add_librart):
+  Unknown CMake command "add_librart".
+
+
+make: *** [cmake_check_build_system] Error 1

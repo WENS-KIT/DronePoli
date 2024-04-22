@@ -1,0 +1,7 @@
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/fly_mission.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/fly_mission.cpp:119:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeographic_msgs::GeoPoseStamped {aka struct geographic_msgs::GeoPoseStamped_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kaltitude[m[K’
+         if(count==10) goal_position.[01;31m[Kaltitude[m[K -= 5.0;
+                                     [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/fly_mission.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

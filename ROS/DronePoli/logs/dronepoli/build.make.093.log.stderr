@@ -1,0 +1,52 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:5[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:2[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:109:98:[m[K [01;31m[Kerror: [m[K‘[01m[Kdegree[m[K’ was not declared in this scope
+                 ROS_INFO_THROTTLE(1, "Go to %.11f, %.11f / deg: %.6f", route[0][0], route[0][1], [01;31m[Kd[m[Kegree);
+                                                                                                  [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:463:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:122:40:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_THROTTLE[m[K’
+ #define ROS_INFO_THROTTLE(period, ...) [01;36m[KROS_LOG_THROTTLE[m[K(period, ::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                                        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:109:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_THROTTLE[m[K’
+                 [01;36m[KR[m[KOS_INFO_THROTTLE(1, "Go to %.11f, %.11f / deg: %.6f", route[0][0], route[0][1], degree);
+                 [01;36m[K^[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:109:98:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfree[m[K’
+                 ROS_INFO_THROTTLE(1, "Go to %.11f, %.11f / deg: %.6f", route[0][0], route[0][1], [01;36m[Kd[m[Kegree);
+                                                                                                  [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:463:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:122:40:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_THROTTLE[m[K’
+ #define ROS_INFO_THROTTLE(period, ...) [01;36m[KROS_LOG_THROTTLE[m[K(period, ::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                                        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:109:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_THROTTLE[m[K’
+                 [01;36m[KR[m[KOS_INFO_THROTTLE(1, "Go to %.11f, %.11f / deg: %.6f", route[0][0], route[0][1], degree);
+                 [01;36m[K^[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:110:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirection_quat[m[K’ was not declared in this scope
+                 ROS_INFO_THROTTLE(1, "x:%.8f, y:%.8f, z:%.8f, w:%.8f", [01;31m[Kd[m[Kirection_quat.x, direction_quat.y, direction_quat.z, direction_quat.w);
+                                                                        [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:463:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:122:40:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_THROTTLE[m[K’
+ #define ROS_INFO_THROTTLE(period, ...) [01;36m[KROS_LOG_THROTTLE[m[K(period, ::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                                        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:110:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_THROTTLE[m[K’
+                 [01;36m[KR[m[KOS_INFO_THROTTLE(1, "x:%.8f, y:%.8f, z:%.8f, w:%.8f", direction_quat.x, direction_quat.y, direction_quat.z, direction_quat.w);
+                 [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

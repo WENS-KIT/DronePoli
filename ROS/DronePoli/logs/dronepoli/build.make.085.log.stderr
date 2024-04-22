@@ -1,0 +1,22 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:5[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:2[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:104:91:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeg[m[K’ was not declared in this scope
+                 ROS_INFO_ONCE("Go to %.11f, %.11f / deg: %.6f", route[0][0], route[0][1], [01;31m[Kd[m[Keg);
+                                                                                           [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:424:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:118:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_ONCE[m[K’
+ #define ROS_INFO_ONCE(...) [01;36m[KROS_LOG_ONCE[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                            [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:104:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_ONCE[m[K’
+                 [01;36m[KR[m[KOS_INFO_ONCE("Go to %.11f, %.11f / deg: %.6f", route[0][0], route[0][1], deg);
+                 [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

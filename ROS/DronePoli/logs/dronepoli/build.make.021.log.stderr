@@ -1,0 +1,7 @@
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/fly_mission.cpp:[m[K In function ‘[01m[Kvoid globalPosition_cb(const ConstPtr&)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/fly_mission.cpp:22:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kellipsoid_height_to_amsl[m[K’ was not declared in this scope
+     global_position.pose.position.altitude = [01;31m[Kellipsoid_height_to_amsl[m[K(msg->latitude, msg->longitude, msg->altitude);
+                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/fly_mission.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

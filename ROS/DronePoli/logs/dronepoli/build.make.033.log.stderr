@@ -1,0 +1,52 @@
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:19:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdouble[m[K’ is not a template
+     std::vector<[01;31m[Kdouble[m[K<vector<double>> route;
+                 [01;31m[K^~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:19:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope
+     std::vector<double<[01;31m[Kvector[m[K<double>> route;
+                        [01;31m[K^~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:19:24:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:3[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:2[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:216:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector[m[K’
+     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+           [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/mpl/aux_/include_preprocessed.hpp:37:0[m[K,
+                 from [01m[K/usr/include/boost/mpl/vector.hpp:46[m[K,
+                 from [01m[K/usr/include/boost/math/policies/policy.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:5[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:2[m[K:
+[01m[K/usr/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp:22:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::vector[m[K’
+ struct [01;36m[Kvector[m[K;
+        [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:52:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:5[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:2[m[K:
+[01m[K/usr/include/boost/container/container_fwd.hpp:108:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::container::vector[m[K’
+ class [01;36m[Kvector[m[K;
+       [01;36m[K^~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:19:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     std::vector<double<vector<double>> [01;31m[Kroute[m[K;
+                                        [01;31m[K^~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:19:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kroute[m[K’ was not declared in this scope
+     [01;31m[Kroute[m[K.push_back(36.14424294, 128.39389622);
+     [01;31m[K^~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:21:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krate[m[K’
+     [01;36m[Kroute[m[K.push_back(36.14424294, 128.39389622);
+     [01;36m[K^~~~~[m[K
+     [32m[Krate[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

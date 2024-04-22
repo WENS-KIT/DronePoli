@@ -1,0 +1,12 @@
+In file included from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:3:0[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:[m[K In function ‘[01m[Kdouble quaternion_to_euler(double, double, double, double)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:73:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdegrees[m[K’ was not declared in this scope
+   return [01;31m[Kdegrees[m[K(atan2(t3,t4));
+          [01;31m[K^~~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:73:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KtfDegrees[m[K’
+   return [01;36m[Kdegrees[m[K(atan2(t3,t4));
+          [01;36m[K^~~~~~~[m[K
+          [32m[KtfDegrees[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

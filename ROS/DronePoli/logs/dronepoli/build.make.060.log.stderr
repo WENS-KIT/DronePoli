@@ -1,0 +1,18 @@
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:91:13:[m[K [01;31m[Kerror: [m[K‘[01m[K_kbhit[m[K’ was not declared in this scope
+         if ([01;31m[K_kbhit[m[K)
+             [01;31m[K^~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:91:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K_Exit[m[K’
+         if ([01;36m[K_kbhit[m[K)
+             [01;36m[K^~~~~~[m[K
+             [32m[K_Exit[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:93:26:[m[K [01;31m[Kerror: [m[K‘[01m[K_getch[m[K’ was not declared in this scope
+             switch((char)[01;31m[K_getch[m[K()){
+                          [01;31m[K^~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:93:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwgetch[m[K’
+             switch((char)[01;36m[K_getch[m[K()){
+                          [01;36m[K^~~~~~[m[K
+                          [32m[Kwgetch[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

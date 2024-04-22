@@ -1,0 +1,30 @@
+In file included from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:3:0[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:[m[K In function ‘[01m[KQUAT convert_euler_to_quaternion(double)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:48:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmath[m[K’ was not declared in this scope
+   double cy = [01;31m[Kmath[m[K.cos(yaw * 0.5);
+               [01;31m[K^~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:48:15:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/boost/math/special_functions/round.hpp:13:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:5[m[K,
+                 from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:2[m[K:
+[01m[K/usr/include/boost/math/tools/config.hpp:336:28:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::math[m[K’
+ namespace boost{ namespace [01;36m[Kmath[m[K{
+                            [01;36m[K^~~~[m[K
+In file included from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:3:0[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:55:4:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KQUAT[m[K’ and ‘[01m[Kint[m[K’)
+   q[01;31m[K[[m[K0] = cy * cp * cr + sy * sp * sr;
+    [01;31m[K^[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:56:4:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KQUAT[m[K’ and ‘[01m[Kint[m[K’)
+   q[01;31m[K[[m[K1] = cy * cp * sr - sy * sp * cr;
+    [01;31m[K^[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:57:4:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KQUAT[m[K’ and ‘[01m[Kint[m[K’)
+   q[01;31m[K[[m[K2] = sy * cp * sr + cy * sp * cr;
+    [01;31m[K^[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:58:4:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KQUAT[m[K’ and ‘[01m[Kint[m[K’)
+   q[01;31m[K[[m[K3] = sy * cp * cr - cy * sp * sr;
+    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

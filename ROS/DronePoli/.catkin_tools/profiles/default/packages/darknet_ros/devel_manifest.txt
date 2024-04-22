@@ -1,0 +1,8 @@
+darknet_ros/darknet_ros
+/home/nvidia/DronePoli/devel/.private/darknet_ros/cmake.lock /home/nvidia/DronePoli/devel/./cmake.lock
+/home/nvidia/DronePoli/devel/.private/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig-version.cmake /home/nvidia/DronePoli/devel/share/darknet_ros/cmake/darknet_rosConfig-version.cmake
+/home/nvidia/DronePoli/devel/.private/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig.cmake /home/nvidia/DronePoli/devel/share/darknet_ros/cmake/darknet_rosConfig.cmake
+/home/nvidia/DronePoli/devel/.private/darknet_ros/lib/libdarknet_ros_lib.so /home/nvidia/DronePoli/devel/lib/libdarknet_ros_lib.so
+/home/nvidia/DronePoli/devel/.private/darknet_ros/lib/libdarknet_ros_nodelet.so /home/nvidia/DronePoli/devel/lib/libdarknet_ros_nodelet.so
+/home/nvidia/DronePoli/devel/.private/darknet_ros/lib/pkgconfig/darknet_ros.pc /home/nvidia/DronePoli/devel/lib/pkgconfig/darknet_ros.pc
+/home/nvidia/DronePoli/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros /home/nvidia/DronePoli/devel/lib/darknet_ros/darknet_ros

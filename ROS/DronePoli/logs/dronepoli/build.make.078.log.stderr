@@ -1,0 +1,7 @@
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:130:43:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kgeographic_msgs::GeoPoseStamped PX5::GoalMsg()[m[K’ without object
+         goal_pos_pub.publish(PX5::GoalMsg([01;31m[K)[m[K);
+                                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

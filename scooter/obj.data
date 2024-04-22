@@ -1,0 +1,5 @@
+classes = 4
+train = scooter/train/train.txt
+valid = scooter/valid/valid.txt
+names = scooter/obj.names
+backup = backup/

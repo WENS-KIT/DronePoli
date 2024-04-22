@@ -1,0 +1,3 @@
+make[2]: *** No rule to make target '/home/nvidia/DronePoli/src/dronepoli/include/convert.h', needed by 'CMakeFiles/dronepoli.dir/src/controller.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

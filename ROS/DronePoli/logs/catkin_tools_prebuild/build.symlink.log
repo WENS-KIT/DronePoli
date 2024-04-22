@@ -1,0 +1,12 @@
+Symlinking /home/nvidia/DronePoli/devel/./setup.zsh
+Symlinking /home/nvidia/DronePoli/devel/./cmake.lock
+Symlinking /home/nvidia/DronePoli/devel/./local_setup.zsh
+Symlinking /home/nvidia/DronePoli/devel/./local_setup.bash
+Symlinking /home/nvidia/DronePoli/devel/./_setup_util.py
+Symlinking /home/nvidia/DronePoli/devel/./setup.sh
+Symlinking /home/nvidia/DronePoli/devel/./local_setup.sh
+Symlinking /home/nvidia/DronePoli/devel/./setup.bash
+Symlinking /home/nvidia/DronePoli/devel/./env.sh
+Symlinking /home/nvidia/DronePoli/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/nvidia/DronePoli/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/nvidia/DronePoli/devel/lib/pkgconfig/catkin_tools_prebuild.pc

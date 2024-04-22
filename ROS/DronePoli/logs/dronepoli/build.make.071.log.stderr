@@ -1,0 +1,27 @@
+In file included from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:5:0[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/callback.h:[m[K In function ‘[01m[Kvoid state_cb(const ConstPtr&)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/callback.h:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msgs::State PX5::current_state[m[K’ is private within this context
+     px5.[01;31m[Kcurrent_state[m[K = *msg;
+         [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:2:0[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:36:28:[m[K [01;36m[Knote: [m[Kdeclared private here
+         mavros_msgs::State [01;36m[Kcurrent_state[m[K;
+                            [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:37:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros_msgs::State PX5::current_state[m[K’ is private within this context
+     while (ros::ok() && !px5.[01;31m[Kcurrent_state[m[K.connected) {
+                              [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:2:0[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/drone.h:36:28:[m[K [01;36m[Knote: [m[Kdeclared private here
+         mavros_msgs::State [01;36m[Kcurrent_state[m[K;
+                            [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:114:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_mode[m[K’ was not declared in this scope
+             [01;31m[Kcmd_mode[m[K.request.base_mode = 0;
+             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:114:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__modf[m[K’
+             [01;36m[Kcmd_mode[m[K.request.base_mode = 0;
+             [01;36m[K^~~~~~~~[m[K
+             [32m[K__modf[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

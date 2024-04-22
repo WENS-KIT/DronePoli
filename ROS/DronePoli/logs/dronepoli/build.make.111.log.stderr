@@ -1,0 +1,8 @@
+In file included from [01m[K/home/nvidia/DronePoli/src/dronepoli/src/controller.cpp:3:0[m[K:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:[m[K In function ‘[01m[KQUAT convert_euler_to_quaternion(double)[m[K’:
+[01m[K/home/nvidia/DronePoli/src/dronepoli/include/_convert.h:45:32:[m[K [01;31m[Kerror: [m[K‘[01m[KPI[m[K’ was not declared in this scope
+   double yaw = bearing / 180 * [01;31m[KPI[m[K;
+                                [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/dronepoli.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/dronepoli.dir/all] Error 2
+make: *** [all] Error 2

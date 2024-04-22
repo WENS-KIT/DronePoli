@@ -1,0 +1,14 @@
+[31m[1mCMake Error[0m at /home/nvidia/DronePoli/src/dronepoli/CMakeLists.txt:26 (add_library):
+  Cannot find source file:
+
+    src/dronepoli/fly_mission.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: dronepoli
+CMake Error: Cannot determine link language for target "dronepoli".
+CMake Error: CMake can not determine linker language for target: dronepoli_node
+CMake Error: Cannot determine link language for target "dronepoli_node".
+make: *** [cmake_check_build_system] Error 1
